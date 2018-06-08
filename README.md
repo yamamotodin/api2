@@ -16,7 +16,10 @@
   "token": "V8dPwzyWJUMQtdp2LCEWZEiUCpjuKKQj" 
 }
 </pre>
-
+* Request Sample
+<pre>
+$ curl -X POST -vvv -d '{"username": "USER","password": "PASSWORD"}' http://localhost:8888/api/login
+</pre>
 
 ## Item List
 * PATH: /api/item
@@ -38,6 +41,10 @@
    }
 ]
 </pre>
+* Request Sample
+<pre>
+$ curl -X GET -vvv  http://localhost:8888/api/item
+</pre>
 
 ## item detail
 * PATH: /api/item/{id}
@@ -52,4 +59,8 @@
      "size": [ "S", "M", "L" ],
      "description": "おすすめの春の新作です"
 }
+</pre>
+* Request Sample
+<pre>
+$ curl -X GET -vvv  http://localhost:8888/api/item/1
 </pre>
