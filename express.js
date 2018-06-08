@@ -42,6 +42,6 @@ app.get('/api/item/:id', function(req, res, next) {
   res.send(result);
 })
 
-app.listen(8888, function(){
-  console.log('Express server listening on port 8888')
+app.listen(8880, function(){
+  console.log('Express server listening on port 8880')
 })
