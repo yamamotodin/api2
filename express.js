@@ -73,5 +73,5 @@ else  {
 })
 
 app.listen(8888, function(){
-  console.log('Express server listening on port 8888')
+  console.log('Express server listening on ports 8888')
 })
